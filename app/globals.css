@@ -10,14 +10,76 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  --radius-radius: 0.625rem;
+  --color-background: oklch(1 0 0);
+  --color-foreground: oklch(0.145 0 0);
+  --color-card: oklch(1 0 0);
+  --color-card-foreground: oklch(0.145 0 0);
+  --color-popover: oklch(1 0 0);
+  --color-popover-foreground: oklch(0.145 0 0);
+  --color-primary: oklch(0.205 0 0);
+  --color-primary-foreground: oklch(0.985 0 0);
+  --color-secondary: oklch(0.97 0 0);
+  --color-secondary-foreground: oklch(0.205 0 0);
+  --color-muted: oklch(0.97 0 0);
+  --color-muted-foreground: oklch(0.556 0 0);
+  --color-accent: oklch(0.97 0 0);
+  --color-accent-foreground: oklch(0.205 0 0);
+  --color-destructive: oklch(0.577 0.245 27.325);
+  --color-border: oklch(0.922 0 0);
+  --color-input: oklch(0.922 0 0);
+  --color-ring: oklch(0.708 0 0);
+  /* Primary blues with progressive saturation */
+  --color-chart-1: oklch(0.65 0.18 250); /* Medium blue - your primary color */
+  --color-chart-2: oklch(0.75 0.14 250); /* Lighter blue variant */
+  --color-chart-3: oklch(0.55 0.22 250); /* Deeper blue variant */
+
+  /* Blue analogous colors - slight hue shifts */
+  --color-chart-4: oklch(0.65 0.18 235); /* Blue-cyan leaning */
+  --color-chart-5: oklch(0.65 0.18 265); /* Blue-violet leaning */
+
+  /* Neutral blue-grays - for backgrounds/secondary elements */
+  --color-chart-6: oklch(0.75 0.08 250); /* Light blue-gray */
+  --color-chart-7: oklch(0.6 0.05 250); /* Medium blue-gray */
+
+  /* Complementary accents - purposeful contrast */
+  --color-chart-8: oklch(0.65 0.16 190); /* Teal complement */
+  --color-chart-9: oklch(0.7 0.13 190); /* Lighter teal */
+
+  /* Split complementary accents */
+  --color-chart-10: oklch(
+    0.65 0.15 310
+  ); /* Soft magenta - balanced with primary */
+  --color-chart-11: oklch(0.55 0.18 280); /* Deep purple-blue */
+
+  /* Deeper/darker variants for emphasis */
+  --color-chart-12: oklch(0.5 0.1 230); /* Deep muted blue-teal */
+  --color-chart-13: oklch(0.4 0.15 250); /* Dark blue */
+  --color-chart-14: oklch(0.35 0.12 270); /* Dark indigo */
+
+  /* Contrasting neutral */
+  --color-chart-15: oklch(0.35 0.05 250); /* Nearly-neutral dark blue-gray */
+
+  
+  --color-sidebar: oklch(0.985 0 0);
+  --color-sidebar-foreground: oklch(0.145 0 0);
+  --color-sidebar-primary: oklch(0.205 0 0);
+  --color-sidebar-primary-foreground: oklch(0.985 0 0);
+  --color-sidebar-accent: oklch(0.97 0 0);
+  --color-sidebar-accent-foreground: oklch(0.205 0 0);
+  --color-sidebar-border: oklch(0.922 0 0);
+  --color-sidebar-ring: oklch(0.708 0 0);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   background: var(--background);
